@@ -13,7 +13,8 @@ import Topbar from "@/components/shared/Topbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Threads",
+  title: "Pamsos",
+  // this Threads
   description: "A Next.js 13 Meta Threads application",
 };
 

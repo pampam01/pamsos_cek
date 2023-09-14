@@ -155,7 +155,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
           render={({ field }) => (
             <FormItem className='flex w-full flex-col gap-3'>
               <FormLabel className='text-base-semibold text-light-2'>
-                Name
+                Nama
               </FormLabel>
               <FormControl>
                 <Input
@@ -175,7 +175,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
           render={({ field }) => (
             <FormItem className='flex w-full flex-col gap-3'>
               <FormLabel className='text-base-semibold text-light-2'>
-                Username
+                Nama Pengguna
               </FormLabel>
               <FormControl>
                 <Input
@@ -195,7 +195,8 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
           render={({ field }) => (
             <FormItem className='flex w-full flex-col gap-3'>
               <FormLabel className='text-base-semibold text-light-2'>
-                Bio
+                Biodata 
+                {/* this only name change */}
               </FormLabel>
               <FormControl>
                 <Textarea

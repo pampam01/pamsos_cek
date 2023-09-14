@@ -2,43 +2,82 @@ export const sidebarLinks = [
   {
     imgURL: "/assets/home.svg",
     route: "/",
-    label: "Home",
+    label: "Beranda",
+    // Home
   },
   {
     imgURL: "/assets/search.svg",
     route: "/search",
-    label: "Search",
+    label: "Cari",
+    // Search
   },
   {
     imgURL: "/assets/heart.svg",
     route: "/activity",
-    label: "Activity",
+    label: "Aktivitas",
+    // Activity
   },
   {
     imgURL: "/assets/create.svg",
     route: "/create-thread",
-    label: "Create Thread",
+    label: "Buat Kutipan",
+    // Create Thread
   },
   {
     imgURL: "/assets/community.svg",
     route: "/communities",
-    label: "Communities",
+    label: "Komunitas",
+    // Communities
   },
   {
     imgURL: "/assets/user.svg",
     route: "/profile",
-    label: "Profile",
+    label: "Profil",
+    // Profile
   },
 ];
 
+// mengganti semua nama label
 export const profileTabs = [
-  { value: "threads", label: "Threads", icon: "/assets/reply.svg" },
-  { value: "replies", label: "Replies", icon: "/assets/members.svg" },
-  { value: "tagged", label: "Tagged", icon: "/assets/tag.svg" },
+  {
+    value: "threads",
+    label: "Kutipan",
+    icon: "/assets/reply.svg",
+    //Threads
+  },
+  {
+    value: "replies",
+    label: "Balasan",
+    icon: "/assets/members.svg",
+    //Replies
+  },
+  {
+    value: "tagged",
+    label: "Tag",
+    icon: "/assets/tag.svg",
+    //Tagged
+  },
 ];
 
+
+
 export const communityTabs = [
-  { value: "threads", label: "Threads", icon: "/assets/reply.svg" },
-  { value: "members", label: "Members", icon: "/assets/members.svg" },
-  { value: "requests", label: "Requests", icon: "/assets/request.svg" },
+  {
+    value: "threads",
+    label: "Kutipan",
+    icon: "/assets/reply.svg",
+    // Threads
+  },
+  {
+    value: "members",
+    label: "Anggota",
+    icon: "/assets/members.svg",
+    //Anggota
+  },
+  {
+    value: "requests",
+    label: "Permintaan",
+    icon: "/assets/request.svg",
+    // Request
+  },
 ];

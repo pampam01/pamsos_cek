@@ -106,7 +106,8 @@ function ThreadCard({
               {isComment && comments.length > 0 && (
                 <Link href={`/thread/${id}`}>
                   <p className='mt-1 text-subtle-medium text-gray-1'>
-                    {comments.length} repl{comments.length > 1 ? "ies" : "y"}
+                    {comments.length} {comments.length > 1 ? "balasan" : "balasan"}
+                    {/* this */}
                   </p>
                 </Link>
               )}
@@ -138,7 +139,8 @@ function ThreadCard({
 
           <Link href={`/thread/${id}`}>
             <p className='mt-1 text-subtle-medium text-gray-1'>
-              {comments.length} repl{comments.length > 1 ? "ies" : "y"}
+              {comments.length} {comments.length > 1 ? "balasan" : "balasan"}
+              {/* this  */}
             </p>
           </Link>
         </div>
@@ -151,7 +153,8 @@ function ThreadCard({
         >
           <p className='text-subtle-medium text-gray-1'>
             {formatDateString(createdAt)}
-            {community && ` - ${community.name} Community`}
+            {community && ` Komunitas ${community.name} `}
+            {/* this */}
           </p>
 
           <Image

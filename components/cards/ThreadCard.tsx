@@ -106,7 +106,7 @@ function ThreadCard({
               {isComment && comments.length > 0 && (
                 <Link href={`/thread/${id}`}>
                   <p className='mt-1 text-subtle-medium text-gray-1'>
-                    {comments.length} {comments.length > 1 ? "balasan" : "balasan"}
+                   {comments.length} {comments.length > 1 ? "balasan" : "balasan"}
                     {/* this */}
                   </p>
                 </Link>
